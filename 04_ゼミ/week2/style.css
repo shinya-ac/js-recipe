@@ -1,0 +1,40 @@
+/* カレー部分の親要素 */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7d807f;
+  padding: 5rem;
+}
+/* カレー部分の子要素 */
+.hero__figure {
+  width: 100%;
+  height: 100%;
+}
+/* カレー部分の子要素 */
+.hero__figure__img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+/* 説明部分の親要素 */
+.about {
+  background-color: #00473e;
+  color: #00473e;
+  padding: 5rem;
+}
+/* 説明部分の子要素 */
+.about__wrapper {
+  background-color: #f2f7f5;
+  padding: 20px;
+}
+
+.about__wrapper__title {
+  padding: 10px;
+  text-align: center;
+}
+
+.about__wrapper__text {
+  margin-top: 1rem;
+}
